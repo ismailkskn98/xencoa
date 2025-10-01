@@ -1,9 +1,11 @@
 'use client';
 import React, { useState, useEffect } from 'react'
 import { motion } from 'motion/react'
+import { useTranslations } from 'next-intl'
 
 export default function Navbar({ isScrolled }) {
     const [activeSection, setActiveSection] = useState('')
+    const t = useTranslations('HomePage.navigation')
 
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId)
@@ -46,17 +48,16 @@ export default function Navbar({ isScrolled }) {
             transition={{ duration: 0.5 }}
         >
             <button onClick={() => scrollToSection('about')} className={`cursor-pointer ${activeSection === 'about' ? 'text-custom-orange' : 'text-white'}`}>
-                About
+                {t('about')}
             </button>
             <button onClick={() => scrollToSection('features')} className={`cursor-pointer ${activeSection === 'features' ? 'text-custom-orange' : 'text-white'}`}>
-                Features
+                {t('features')}
             </button>
             <button onClick={() => scrollToSection('timeline')} className={`cursor-pointer ${activeSection === 'timeline' ? 'text-custom-orange' : 'text-white'}`}>
-
-                Timeline
+                {t('timeline')}
             </button>
             <button onClick={() => scrollToSection('faq')} className={`cursor-pointer ${activeSection === 'faq' ? 'text-custom-orange' : 'text-white'}`}>
-                FAQ
+                {t('faq')}
             </button>
         </motion.nav>
     )

@@ -1,5 +1,161 @@
 {
   "HomePage": {
-    "title": "Merhaba Dünya!"
+    "title": "Geleceğin enerjisi bizimle başlıyor | Xencoa",
+    "hero": {
+      "slides": [
+        {
+          "badge": "Nano Akıllı Macun",
+          "title": "Yeni Bir Teknoloji Hayal Edin",
+          "description": "Sadece güneş ışığı yardımıyla, en yüksek verimle ve en düşük maliyetle enerji üretebilen, aynı zamanda aydınlatma sağlayan, ısı üreten ve elektriği depolayabilen bir teknoloji. Bu mümkün değil mi diyorsunuz? Artık mümkün: Nano Akıllı Macun.",
+          "cta": "Keşfet",
+          "ctaVideo": "Tanıtım Videosu"
+        },
+        {
+          "badge": "Elektrik Üretimi",
+          "title": "Gün Işığından Enerji Üretin",
+          "description": "Nano macun, yalnızca gün ışığından dahi elektrik üretebilir. Üstelik her yüzeye uygulanabilir, esnek ve dalgalı yüzeylerde bile yüksek verimlilik ve düşük maliyet sağlar. Klasik paneller sadece güneşe ihtiyaç duyarken, nano macun için gün ışığı yeterlidir.",
+          "cta": "Detaylı Bilgi",
+          "ctaVideo": "Tanıtım Videosu"
+        },
+        {
+          "badge": "Isıtma & Soğutma",
+          "title": "Saniyeler İçinde 600°C'ye Kadar Isınma",
+          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 600 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı.",
+          "cta": "Detaylı Bilgi",
+          "ctaVideo": "Tanıtım Videosu"
+        },
+        {
+          "badge": "Aydınlatma & Enerji Depolama",
+          "title": "Çok Fonksiyonlu Aydınlatma ve Uzun Ömürlü Depolama",
+          "description": "Esnek uygulama ile dijital kontrollü cam perdeler ve çok fonksiyonlu aydınlatma çözümleri. Ayrıca 500.000 şarj döngüsüne kadar dayanıklı enerji depolama sistemi. Araçların bataryalarını doğrudan şarj edebilir, kısa sürede şarj olur, uzun süre dayanır.",
+          "cta": "Detaylı Bilgi",
+          "ctaVideo": "Tanıtım Videosu"
+        }
+      ],
+      "mainTitle": "Geleceğin Enerjisi Bizimle Başlıyor",
+      "subtitle": "Nano Akıllı Macun Teknolojisi ile",
+      "description": "Sadece güneş ışığı yardımıyla, en yüksek verimle ve en düşük maliyetle enerji üretebilen, aynı zamanda aydınlatma sağlayan, ısı üreten ve elektriği depolayabilen devrim niteliğindeki teknoloji.",
+      "cta": "Keşfet",
+      "tagline": "Her Yüzey, İnovasyonun Yeni Alanı"
+    },
+    "about": {
+      "title": "Xencoa Nedir?",
+      "subtitle": "Xencoa ile Geleceğin Enerjisi",
+      "description": "Xencoa, dünyada geliştirilen Nano Akıllı Macun Teknolojisini Türkiye'ye getirerek, enerji alanında devrim niteliğinde çözümler sunar.",
+      "vision": {
+        "title": "Vizyon ve Misyon",
+        "description": "Bu yalnızca bir proje değil. Bu bir vizyon, bir dönüşüm yolculuğu. Hayallerden gerçeğe uzanan bu yolculukta, Xencoa tam da bu sorunun cevabı."
+      },
+      "technology": {
+        "title": "Nano Akıllı Macun Teknolojisi",
+        "description": "Uzun yıllar süren çalışmaların ardından, dünyada bir ilk olarak tüm bu fonksiyonları tek başına insanlığın hizmetine sunuyor. İnce ve esnek yapısı sayesinde, farklı yüzeylere istediğiniz şekilde, renkte, tasarımda ve formda kolayca uygulanabiliyor."
+      },
+      "benefits": [
+        "Elektrik üretimi yalnızca güneş değil, her türlü ışık kaynağıyla mümkün",
+        "Isıtma ve soğutma fonksiyonları tek bir yüzey üzerinden sağlanabilir",
+        "Aydınlatma daha düşük enerjiyle, daha uzun ömürlü şekilde gerçekleşir",
+        "Enerji depolama sistemleri, 500.000 döngüye kadar dayanıklı"
+      ]
+    },
+    "features": {
+      "title": "Dört Ana Fonksiyon",
+      "subtitle": "Tüm bu fonksiyonlar tek bir üründe birleşiyor",
+      "items": [
+        {
+          "title": "Elektrik Üretimi",
+          "description": "Nano macun, yalnızca gün ışığından dahi elektrik üretebilir. Üstelik her yüzeye uygulanabilir, esnek ve dalgalı yüzeylerde bile yüksek verimlilik ve düşük maliyet sağlar. Klasik paneller sadece güneşe ihtiyaç duyarken, nano macun için gün ışığı yeterlidir."
+        },
+        {
+          "title": "Isıtma Sistemi",
+          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 600 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı."
+        },
+        {
+          "title": "Aydınlatma Çözümleri",
+          "description": "Esnek uygulama özelliği sayesinde dijital kontrollü cam perdeler, çok fonksiyonlu aydınlatma çözümleri üretilebilir. Işıklı reklam panolarından iç ve dış mekan aydınlatmalarına kadar sayısız kullanım alanı vardır."
+        },
+        {
+          "title": "Enerji Depolama",
+          "description": "Nano macun ile üretilen paneller, enerjiyi güvenle saklar ve ihtiyacınız olduğunda size geri verir. Araçların bataryalarını doğrudan şarj edebilir. Kısa sürede şarj olur, uzun süre dayanır. 500.000 şarj döngüsüne kadar ömür sunar."
+        }
+      ],
+      "additional": {
+        "title": "Sınırsız Kullanım Alanları",
+        "description": "Bu teknoloji sadece evlerde değil, sokaklarda ve şehir altyapılarında da kullanılabilir. Güneş panelleriyle entegre çalışarak kesintisiz enerji sağlar."
+      }
+    },
+    "timeline": {
+      "title": "Teknoloji Geliştirme Süreci",
+      "subtitle": "Uzun yıllar süren çalışmaların sonucu",
+      "items": [
+        {
+          "year": "Araştırma Başlangıcı",
+          "title": "Nano Teknoloji Araştırmaları",
+          "description": "Dünyada bir ilk olarak çok fonksiyonlu enerji çözümü geliştirme çalışmaları başladı."
+        },
+        {
+          "year": "Geliştirme",
+          "title": "Teknoloji Matürasyonu",
+          "description": "Elektrik üretimi, ısıtma, aydınlatma ve enerji depolama fonksiyonlarının tek üründe birleştirilmesi."
+        },
+        {
+          "year": "Sertifikasyon",
+          "title": "Uluslararası Onaylar",
+          "description": "Ürünlerimiz uluslararası kalite enstitüleri tarafından sertifikalandırıldı."
+        },
+        {
+          "year": "Türkiye",
+          "title": "Xencoa ile Türkiye'ye Geliş",
+          "description": "Nano Akıllı Macun Teknolojisi artık Türkiye'de, Xencoa ile birlikte."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "subtitle": "Nano Akıllı Macun teknolojisi hakkında merak ettikleriniz",
+      "items": [
+        {
+          "question": "Nano Akıllı Macun teknolojisi gerçekten çalışıyor mu?",
+          "answer": "Evet, uzun yıllar süren çalışmaların ardından dünyada bir ilk olarak geliştirilmiştir. Ürünlerimiz uluslararası kalite enstitüleri tarafından sertifikalandırılmıştır."
+        },
+        {
+          "question": "Hangi yüzeylere uygulanabilir?",
+          "answer": "İnce ve esnek yapısı sayesinde farklı yüzeylere, istediğiniz şekilde, renkte, tasarımda ve formda kolayca uygulanabilir. Esnek ve dalgalı yüzeylerde bile yüksek verimlilik sağlar."
+        },
+        {
+          "question": "Sadece güneşle mi çalışır?",
+          "answer": "Hayır, klasik paneller sadece güneşe ihtiyaç duyarken, nano macun için gün ışığı yeterlidir. Her türlü ışık kaynağıyla elektrik üretimi mümkündür."
+        },
+        {
+          "question": "Kaç derece ısınabilir?",
+          "answer": "Nano macunla kaplanan yüzeyler saniyeler içinde 600 dereceye kadar ısınabilir ve dijital kontrol ile yönetilebilir."
+        },
+        {
+          "question": "Enerji depolama kapasitesi nasıl?",
+          "answer": "500.000 şarj döngüsüne kadar dayanıklı enerji depolama sistemi sunar. Kısa sürede şarj olur, uzun süre dayanır."
+        },
+        {
+          "question": "Xencoa nedir?",
+          "answer": "Xencoa, bu devrim niteliğindeki teknolojiyi Türkiye'ye getiren, Nano Teknoloji, Network Marketing ve Kripto dünyasını bir araya getiren vizyoner bir girişimdir."
+        }
+      ]
+    },
+    "navigation": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "features": "Özellikler",
+      "timeline": "Süreç",
+      "faq": "SSS",
+      "contact": "İletişim",
+      "login": "Giriş Yap"
+    },
+    "footer": {
+      "slogan": "Geleceğin enerjisi bizimle başlıyor",
+      "description": "Nano Akıllı Macun Teknolojisi ile enerji sektöründe devrim",
+      "rights": "© 2025 Xencoa. Tüm hakları saklıdır."
+    },
+    "meta": {
+      "description": "Xencoa ile Nano Akıllı Macun Teknolojisi Türkiye'de. Elektrik üretimi, ısıtma, aydınlatma ve enerji depolama tek üründe. Geleceğin enerjisi bizimle başlıyor.",
+      "keywords": "nano teknoloji, akıllı macun, enerji üretimi, güneş enerjisi, enerji depolama, xencoa, türkiye"
+    }
   }
 }

@@ -1,5 +1,161 @@
 {
   "HomePage": {
-    "title": "Hello world!"
+    "title": "The energy of the future starts with us | Xencoa",
+    "hero": {
+      "slides": [
+        {
+          "badge": "Nano Smart Paste",
+          "title": "Imagine a New Technology",
+          "description": "A technology that can generate energy with the highest efficiency and lowest cost using only sunlight, while also providing lighting, generating heat, and storing electricity. You think it's impossible? It's now possible: Nano Smart Paste.",
+          "cta": "Discover",
+          "ctaVideo": "Watch Video"
+        },
+        {
+          "badge": "Electricity Generation",
+          "title": "Generate Energy from Daylight",
+          "description": "Nano paste can generate electricity even from daylight alone. Moreover, it can be applied to any surface, providing high efficiency and low cost even on flexible and wavy surfaces. While classic panels only need the sun, daylight is sufficient for nano paste.",
+          "cta": "Learn More",
+          "ctaVideo": "Watch Video"
+        },
+        {
+          "badge": "Heating & Cooling",
+          "title": "Heat Up to 600°C in Seconds",
+          "description": "Surfaces covered with nano paste can heat up to 600 degrees within seconds. Glass panels to decorative wall heaters, digitally controlled radiators and solutions integrated with smart home systems are possible. No boiler, no radiator... just innovative, clean heat.",
+          "cta": "Learn More",
+          "ctaVideo": "Watch Video"
+        },
+        {
+          "badge": "Lighting & Energy Storage",
+          "title": "Multi-Functional Lighting and Long-Lasting Storage",
+          "description": "Flexible application enables digitally controlled glass curtains and multi-functional lighting solutions. Plus energy storage system durable up to 500,000 charge cycles. Can directly charge vehicle batteries, charges quickly and lasts long.",
+          "cta": "Learn More",
+          "ctaVideo": "Watch Video"
+        }
+      ],
+      "mainTitle": "The Energy of the Future Starts with Us",
+      "subtitle": "With Nano Smart Paste Technology",
+      "description": "Revolutionary technology that can generate energy with the highest efficiency and lowest cost using only sunlight, while providing lighting, generating heat, and storing electricity.",
+      "cta": "Discover",
+      "tagline": "Every Surface, A New Field of Innovation"
+    },
+    "about": {
+      "title": "What is Xencoa?",
+      "subtitle": "The Energy of the Future with Xencoa",
+      "description": "Xencoa brings the Nano Smart Paste Technology developed worldwide to Turkey, offering revolutionary solutions in the energy sector.",
+      "vision": {
+        "title": "Vision and Mission",
+        "description": "This is not just a project. This is a vision, a transformation journey. In this journey from dreams to reality, Xencoa is exactly the answer to this question."
+      },
+      "technology": {
+        "title": "Nano Smart Paste Technology",
+        "description": "After years of work, it offers all these functions to humanity for the first time in the world. Thanks to its thin and flexible structure, it can be easily applied to different surfaces in any shape, color, design and form you want."
+      },
+      "benefits": [
+        "Electricity generation is possible not only with solar but with any light source",
+        "Heating and cooling functions can be provided from a single surface",
+        "Lighting is realized with lower energy and longer life",
+        "Energy storage systems are durable up to 500,000 cycles"
+      ]
+    },
+    "features": {
+      "title": "Four Main Functions",
+      "subtitle": "All these functions are combined in a single product",
+      "items": [
+        {
+          "title": "Electricity Generation",
+          "description": "Nano paste can generate electricity even from daylight alone. Moreover, it can be applied to any surface, providing high efficiency and low cost even on flexible and wavy surfaces. While classic panels only need the sun, daylight is sufficient for nano paste."
+        },
+        {
+          "title": "Heating System",
+          "description": "Surfaces covered with nano paste can heat up to 600 degrees within seconds. Glass panels to decorative wall heaters, digitally controlled radiators and solutions integrated with smart home systems are possible. No boiler, no radiator... just innovative, clean heat."
+        },
+        {
+          "title": "Lighting Solutions",
+          "description": "Thanks to its flexible application feature, digitally controlled glass curtains and multifunctional lighting solutions can be produced. There are countless areas of use from illuminated advertising panels to indoor and outdoor lighting."
+        },
+        {
+          "title": "Energy Storage",
+          "description": "Panels produced with nano paste safely store energy and return it to you when you need it. It can directly charge vehicle batteries. It charges quickly and lasts long. It offers a lifespan of up to 500,000 charge cycles."
+        }
+      ],
+      "additional": {
+        "title": "Unlimited Usage Areas",
+        "description": "This technology can be used not only in homes but also in streets and city infrastructures. It provides uninterrupted energy by working integrated with solar panels."
+      }
+    },
+    "timeline": {
+      "title": "Technology Development Process",
+      "subtitle": "The result of years of work",
+      "items": [
+        {
+          "year": "Research Beginning",
+          "title": "Nano Technology Research",
+          "description": "Work began to develop the world's first multifunctional energy solution."
+        },
+        {
+          "year": "Development",
+          "title": "Technology Maturation",
+          "description": "Combining electricity generation, heating, lighting and energy storage functions in a single product."
+        },
+        {
+          "year": "Certification",
+          "title": "International Approvals",
+          "description": "Our products have been certified by international quality institutes."
+        },
+        {
+          "year": "Turkey",
+          "title": "Coming to Turkey with Xencoa",
+          "description": "Nano Smart Paste Technology is now in Turkey, together with Xencoa."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "What you're curious about Nano Smart Paste technology",
+      "items": [
+        {
+          "question": "Does Nano Smart Paste technology really work?",
+          "answer": "Yes, it has been developed as a world first after years of work. Our products are certified by international quality institutes."
+        },
+        {
+          "question": "Which surfaces can it be applied to?",
+          "answer": "Thanks to its thin and flexible structure, it can be easily applied to different surfaces in any shape, color, design and form you want. It provides high efficiency even on flexible and wavy surfaces."
+        },
+        {
+          "question": "Does it only work with the sun?",
+          "answer": "No, while classic panels only need the sun, daylight is sufficient for nano paste. Electricity generation is possible with any light source."
+        },
+        {
+          "question": "How many degrees can it heat up?",
+          "answer": "Surfaces covered with nano paste can heat up to 600 degrees within seconds and can be managed with digital control."
+        },
+        {
+          "question": "What is the energy storage capacity?",
+          "answer": "It offers a durable energy storage system up to 500,000 charge cycles. It charges quickly and lasts long."
+        },
+        {
+          "question": "What is Xencoa?",
+          "answer": "Xencoa is a visionary initiative that brings this revolutionary technology to Turkey, combining Nano Technology, Network Marketing and the Crypto world."
+        }
+      ]
+    },
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "features": "Features",
+      "timeline": "Process",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "login": "Login"
+    },
+    "footer": {
+      "slogan": "The energy of the future starts with us",
+      "description": "Revolution in the energy sector with Nano Smart Paste Technology",
+      "rights": "© 2025 Xencoa. All rights reserved."
+    },
+    "meta": {
+      "description": "Nano Smart Paste Technology in Turkey with Xencoa. Electricity generation, heating, lighting and energy storage in one product. The energy of the future starts with us.",
+      "keywords": "nano technology, smart paste, energy generation, solar energy, energy storage, xencoa, turkey"
+    }
   }
 }

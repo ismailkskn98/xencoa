@@ -26,7 +26,7 @@ export default function LanguageChange({ isScrolled }) {
                 })
             }}>
                 <SelectTrigger
-                    className={`border-none ring-0 focus-visible:ring-0 focus-visible:border-0 focus-visible:outline-0 cursor-pointer transition-all duration-300 w-fit flex items-center justify-center !h-fit shadow-none ${isScrolled ? "py-2 min-w-[110px] px-2" : "py-2.5 min-w-min px-3"} bg-custom-orange text-white/70 hover:text-white focus:text-white focus-visible:text-white active:text-white}`}
+                    className={`border-none ring-0 focus-visible:ring-0 focus-visible:border-0 focus-visible:outline-0 cursor-pointer transition-all duration-300 w-fit flex items-center justify-center !h-fit shadow-none min-w-[110px] ${isScrolled ? "py-2 px-2" : "py-2.5 px-3"} bg-custom-orange text-white/70 hover:text-white focus:text-white focus-visible:text-white active:text-white`}
                 >
 
                     <SelectValue />

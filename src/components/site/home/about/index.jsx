@@ -1,33 +1,36 @@
 import Image from 'next/image'
 import React from 'react'
+import { useTranslations } from 'next-intl'
 
 export default function About() {
+    const t = useTranslations('HomePage');
     return (
-        <section id="about" className="w-full gridContainer pt-16">
-            <main className='w-full flex items-center gap-16'>
-                <article className='w-full flex flex-col items-start gap-12'>
+        <section id="about" className="w-full fluid gridContainer pt-16">
+            <main className='w-full flex flex-col lg:flex-row items-start lg:items-center gap-6 xl:gap-8 2xl:gap-16'>
+                <article className='w-full flex flex-col items-start gap-6'>
                     <div className='w-fit h-fit flex flex-col items-start gap-3'>
-                        <span className='inline-block bg-custom-orange text-white text-sm px-4 py-2 rounded-full'>
-                            Xencoa Nedir?
+                        <span className='inline-block bg-custom-orange text-white text-sm px-4 py-2 rounded-full font-medium'>
+                            {t('about.title')}
                         </span>
                         <div className='w-fit h-fit relative'>
-                            <h2 className="text-5xl font-light text-gray-900">
-                                Yenilikçi Enerji Vizyonu
-                            </h2>
-                            <Image src="/images/xencoa-logo-item-top.webp" alt="Xencoa logo item" width={50} height={50} className='absolute -bottom-7 left-3.5 object-contain object-center h-12 -rotate-138' />
+                            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light text-gray-900">
+                                {t('about.subtitle')}
+                            </h1>
                         </div>
                     </div>
-                    <div className='flex flex-col items-start leading-relaxed max-w-2xl text-gray-600 text-base gap-2'>
+                    <div className='flex flex-col items-start leading-relaxed max-w-2xl text-gray-700 text-base gap-5'>
                         <p className="w-full">
-                            <span className='text-custom-orange font-medium'>Xencoa</span>, geleceğin enerji vizyonunu bugünden hayata taşımayı hedefleyen yenilikçi bir projedir.
-                            Dünyada geliştirilen <strong>Nano Akıllı Macun</strong> Teknolojisini Türkiye’ye getirerek, enerji alanında devrim niteliğinde çözümler sunar.
+                            {t('about.description')}
                         </p>
                         <p className="w-full">
-                            Aynı zamanda bu teknolojiyi yatırım fırsatı haline getiren, Nano Teknoloji, Network Marketing ve Kripto dünyasını bir araya getiren vizyoner bir girişimdir.Her yeni kullanıcıyla büyüyen, paylaşım temelli iş modeli sayesinde<span className='text-custom-orange font-medium'> Xencoa</span>; hem bireylere ek gelir sağlar, hem de enerji sektöründe sürdürülebilir bir dönüşümün parçası olma şansı verir.
+                            {t('about.vision.description')}
+                        </p>
+                        <p className="w-full">
+                            {t('about.technology.description')}
                         </p>
                     </div>
                 </article>
-                <article className='w-full grid grid-cols-4 grid-rows-2 gap-6'>
+                <article className='w-full grid grid-cols-4 grid-rows-2 gap-2 sm:gap-6'>
                     <div className="relative w-full h-64">
                         <svg width="0" height="0" className="absolute">
                             <defs>
