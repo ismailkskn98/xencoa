@@ -2,6 +2,8 @@ import { CustomTimeline } from '@/components/ui/customTimeline';
 import Image from 'next/image';
 import React from 'react'
 import { useTranslations } from 'next-intl';
+import MotionScrollInViewVariant from '../../common/motionScrollInViewVariant';
+import MotionScrollInView from '../../common/motionScrollInView';
 
 export default function Timeline() {
     const t = useTranslations('HomePage.timeline');
@@ -128,7 +130,7 @@ export default function Timeline() {
     return (
         <section id="timeline" className="w-full fluid bg-gradient-to-br from-black to-[#232323] gridContainer pt-24 pb-16">
             <main className='w-full mx-auto max-w-max xl:max-w-11/12 2xl:max-w-10/12 flex flex-col items-start gap-0'>
-                <article className='w-fit h-fit max-w-3xl flex flex-col gap-3 mb-12'>
+                <MotionScrollInViewVariant className={"w-fit h-fit max-w-3xl flex flex-col gap-3 mb-12"}>
                     <span className='inline-block w-fit bg-custom-orange text-white/90 text-sm px-4 py-2 rounded-full font-medium'>
                         {t('title')}
                     </span>
@@ -137,10 +139,10 @@ export default function Timeline() {
                             {t('subtitle')}
                         </h2>
                     </div>
-                </article>
-                <div className="relative w-full overflow-clip">
+                </MotionScrollInViewVariant>
+                <MotionScrollInView className={"relative w-full overflow-clip"}>
                     <CustomTimeline data={data} />
-                </div>
+                </MotionScrollInView>
             </main>
         </section>
     )

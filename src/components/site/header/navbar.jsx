@@ -42,7 +42,7 @@ export default function Navbar({ isScrolled }) {
 
     return (
         <motion.nav
-            className={`col-span-4 w-fit mx-auto flex items-center justify-center gap-7 text-sm capitalize font-medium text-white rounded-lg px-8 py-1 ${isScrolled ? 'bg-transparent backdrop-blur-none' : ' bg-white/5 backdrop-blur-2xl'}`}
+            className={`col-span-4 w-fit mx-auto flex items-center justify-center gap-7 text-sm capitalize text-white rounded-lg px-8 py-1 ${isScrolled ? 'bg-transparent backdrop-blur-none' : ' bg-white/5 backdrop-blur-2xl'}`}
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
