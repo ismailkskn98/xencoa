@@ -16,17 +16,17 @@ export default function FAQ() {
     ]
 
     return (
-        <section id="faq" className="w-full fluid gridContainer pt-24 pb-16">
+        <section id="faq" className="w-full fluid gridContainer pt-20 lg:pt-24 pb-16">
             <main className='w-full mx-auto max-w-max lg:max-w-11/12 xl:max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col items-center gap-12'>
-                <MotionScrollInViewVariant className={"w-fit h-fit flex flex-col items-center gap-3 mb-8"}>
-                    <span className='inline-block bg-custom-orange text-white text-sm px-4 py-2 rounded-full font-medium'>
+                <MotionScrollInViewVariant className={"w-fit h-fit flex flex-col items-start lg:items-center gap-3 mb-5 lg:mb-8"}>
+                    <span className='inline-block bg-custom-orange text-white text-sm px-4 py-2 rounded-full'>
                         {t('title')}
                     </span>
                     <div className='w-fit h-fit relative'>
-                        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-gray-900 text-center max-w-3xl">
+                        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-gray-900 text-start lg:text-center max-w-max lg:max-w-3xl">
                             {t('subtitle')}
                         </h2>
-                        <Image src="/images/xencoa-logo-item-top.webp" alt="Xencoa logo item" width={50} height={50} className='absolute left-1/2 -translate-x-1/2 -bottom-8 sm:-bottom-12 object-contain object-center h-10 sm:h-14 -rotate-138' />
+                        <Image src="/images/xencoa-logo-item-top.webp" alt="Xencoa logo item" width={50} height={50} className='absolute left-2 lg:left-1/2 translate-x-0 lg:-translate-x-1/2 -bottom-8 lg:-bottom-10 object-contain object-center h-10 sm:h-14 -rotate-138' />
                     </div>
                 </MotionScrollInViewVariant>
                 <MotionScrollInViewVariant className={"w-full max-w-5xl flex flex-col items-start gap-8"}>

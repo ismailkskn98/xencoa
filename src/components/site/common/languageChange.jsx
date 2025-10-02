@@ -6,7 +6,7 @@ import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { useSearchParams } from 'next/navigation';
 
-export default function LanguageChange({ isScrolled }) {
+export default function LanguageChange({ isScrolled, className }) {
     const router = useRouter();
     const pathname = usePathname();
     const searchParams = useSearchParams();
@@ -26,7 +26,7 @@ export default function LanguageChange({ isScrolled }) {
                 })
             }}>
                 <SelectTrigger
-                    className={`border-none ring-0 focus-visible:ring-0 focus-visible:border-0 focus-visible:outline-0 cursor-pointer transition-all duration-300 w-fit flex items-center justify-center !h-fit shadow-none min-w-[110px] ${isScrolled ? "py-2 px-2" : "py-2.5 px-3"} bg-custom-orange text-white/70 hover:text-white focus:text-white focus-visible:text-white active:text-white`}
+                    className={className}
                 >
 
                     <SelectValue />

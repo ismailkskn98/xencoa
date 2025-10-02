@@ -10,7 +10,7 @@ export default function About() {
             <main className='w-full flex flex-col lg:flex-row items-start lg:items-center gap-6 xl:gap-8 2xl:gap-16'>
                 <MotionScrollInViewVariant className={"w-full flex flex-col items-start gap-6"}>
                     <div className='w-fit h-fit flex flex-col items-start gap-3'>
-                        <span className='inline-block bg-custom-orange text-white text-sm px-4 py-2 rounded-full font-medium'>
+                        <span className='inline-block bg-custom-orange text-white text-sm px-4 py-2 rounded-full'>
                             {t('about.title')}
                         </span>
                         <div className='w-fit h-fit relative'>

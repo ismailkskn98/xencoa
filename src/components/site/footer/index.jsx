@@ -35,13 +35,13 @@ export default function Footer() {
         <footer className='fluid gridContainer w-full px-2 pb-0.5 mt-12'>
             <MotionScrollInView className={"w-full"}>
                 <section className='relative w-full bg-gradient-to-b from-black to-[#1b1b1b] rounded-xl min-h-96 max-h-96'>
-                    <Image src={"/images/xencoa-logo-item-top.webp"} alt='xencoa logo item' width={200} height={200} className="absolute-top-3 lg:-top-6 -left-3 lg:-left-6 w-fit h-20 lg:h-36 skew-x-[11deg] skew-y-[5deg] drop-shadow-[6px_6px_5px_black]" />
+                    <Image src={"/images/xencoa-logo-item-top.webp"} alt='xencoa logo item' width={200} height={200} className="absolute -top-3 lg:-top-6 -left-3 lg:-left-6 w-fit h-20 lg:h-36 skew-x-[11deg] skew-y-[5deg] drop-shadow-[6px_6px_5px_black]" />
                     <article className='flex flex-col items-start gap-3 sm:gap-5 p-8'>
                         <h3 className='text-white text-2xl sm:text-3xl lg:text-4xl font-light max-w-md'>{t('slogan')}</h3>
                         <p className='text-white/70 text-sm lg:text-base max-w-lg'>{t('description')}</p>
-                        <Link href={"auth/login"} className='group relative bg-custom-orange text-white py-1.5 lg:py-2 pl-3 lg:pl-4 pr-5 lg:pr-8 rounded-l-lg mt-2'>
+                        <Link href={"auth/login"} className='group relative bg-custom-orange text-white rounded-l-lg text-xs py-2 pl-3.5 pr-4 text-nowrap mt-2'>
                             <span>{tNav('login')}</span>
-                            <span className='w-10 lg:w-12 h-10 lg:h-12 bg-custom-orange rounded-full absolute top-1/2 -translate-y-1/2 -right-6 text-white flex items-center justify-center text-xl -rotate-45 overflow-hidden'>
+                            <span className={`bg-custom-orange rounded-full absolute top-1/2 -translate-y-1/2 -right-6 text-white flex items-center justify-center text-sm w-9 h-9 -rotate-45 overflow-hidden`}>
                                 <IoArrowForward className='group-hover:translate-x-12 group-hover:-translate-y-0 transition-all duration-200' />
                                 <IoArrowForward className='absolute -left-6 top-5 group-hover:left-1/2 group-hover:top-1/2 group-hover:-translate-x-1/2 group-hover:-translate-y-1/2 transition-all duration-200' />
                             </span>

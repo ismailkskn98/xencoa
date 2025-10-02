@@ -128,10 +128,10 @@ export default function Timeline() {
     ];
 
     return (
-        <section id="timeline" className="w-full fluid bg-gradient-to-br from-black to-[#232323] gridContainer pt-24 pb-16">
+        <section id="timeline" className="w-full fluid bg-gradient-to-br from-black to-[#232323] gridContainer pt-20 lg:pt-24 pb-10 lg:pb-16">
             <main className='w-full mx-auto max-w-max xl:max-w-11/12 2xl:max-w-10/12 flex flex-col items-start gap-0'>
-                <MotionScrollInViewVariant className={"w-fit h-fit max-w-3xl flex flex-col gap-3 mb-12"}>
-                    <span className='inline-block w-fit bg-custom-orange text-white/90 text-sm px-4 py-2 rounded-full font-medium'>
+                <MotionScrollInViewVariant className={"w-fit h-fit max-w-3xl flex flex-col gap-3 mb-8 lg:mb-12"}>
+                    <span className='inline-block w-fit bg-custom-orange text-white/90 text-sm px-4 py-2 rounded-full'>
                         {t('title')}
                     </span>
                     <div className='w-fit h-fit relative'>

@@ -8,17 +8,17 @@ export default function Features() {
     const t = useTranslations('HomePage.features');
 
     return (
-        <section id="features" className="w-full fluid gridContainer pt-24 pb-16">
+        <section id="features" className="w-full fluid gridContainer pt-20 lg:pt-24 pb-16">
             <main className='w-full mx-auto max-w-full xl:max-w-11/12 2xl:max-w-10/12 flex flex-col items-center gap-12'>
-                <MotionScrollInViewVariant className={"w-fit h-fit flex flex-col items-center gap-3 mb-8"}>
+                <MotionScrollInViewVariant className={"w-fit h-fit flex flex-col items-start lg:items-center gap-3 mb-5 lg:mb-8"}>
                     <span className='inline-block bg-custom-orange text-white text-sm px-4 py-2 rounded-full font-medium'>
                         {t('title')}
                     </span>
                     <div className='w-fit h-fit relative'>
-                        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-gray-900 text-center">
+                        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-gray-900 text-start lg:text-center">
                             {t('subtitle')}
                         </h2>
-                        <Image src="/images/xencoa-logo-item-top.webp" alt="Xencoa logo item" width={50} height={50} className='absolute left-1/2 -translate-x-1/2 -bottom-10 object-contain object-center h-14 -rotate-138' />
+                        <Image src="/images/xencoa-logo-item-top.webp" alt="Xencoa logo item" width={50} height={50} className='absolute left-2 lg:left-1/2 translate-x-0 lg:-translate-x-1/2 -bottom-8 lg:-bottom-10 object-contain object-center h-14 -rotate-138' />
                     </div>
                 </MotionScrollInViewVariant>
                 <MotionScrollInView className={"w-full"}>
@@ -66,7 +66,7 @@ export default function Features() {
                     </section>
                 </MotionScrollInView>
                 <MotionScrollInView className={"w-full"}>
-                    <section className='w-full mt-8 p-8 bg-gradient-to-br from-custom-orange/10 to-custom-dark-blue/10 rounded-lg'>
+                    <section className='w-full mt-0 lg:mt-8 p-8 bg-gradient-to-br from-custom-orange/10 to-custom-dark-blue/10 rounded-lg'>
                         <h3 className='text-2xl font-medium text-gray-900 mb-3'>{t('additional.title')}</h3>
                         <p className='text-gray-700 text-base leading-relaxed max-w-3xl'>
                             {t('additional.description')}
