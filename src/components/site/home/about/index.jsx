@@ -42,7 +42,7 @@ export default function About() {
                                 </defs>
                             </svg>
                             <div
-                                className='absolute inset-0 bg-[url("/images/about-1.webp")] bg-cover bg-center bg-no-repeat'
+                                className='absolute inset-0 bg-[url("/images/xencoa-1.webp")] bg-cover bg-center bg-no-repeat'
                                 style={{ clipPath: 'url(#cinch)' }}
                             />
                         </div>
@@ -55,7 +55,7 @@ export default function About() {
                                 </defs>
                             </svg>
                             <div
-                                className='absolute inset-0 bg-[url("/images/about-2.webp")] bg-cover bg-center bg-no-repeat'
+                                className='absolute inset-0 bg-[url("/images/about-orta.webp")] bg-cover bg-center bg-no-repeat'
                                 style={{ clipPath: 'url(#cinch)' }}
                             />
                         </div>
@@ -81,7 +81,7 @@ export default function About() {
                                 </defs>
                             </svg>
                             <div
-                                className='absolute inset-0 bg-[url("/images/about-1.webp")] bg-cover bg-center bg-no-repeat'
+                                className='absolute inset-0 bg-[url("/images/xencoa-2.webp")] bg-cover bg-center bg-no-repeat'
                                 style={{ clipPath: 'url(#cinch)' }}
                             />
                         </div>

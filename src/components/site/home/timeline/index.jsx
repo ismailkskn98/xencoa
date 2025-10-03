@@ -21,14 +21,14 @@ export default function Timeline() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/images/about-1.webp"
+                            src="/images/timeline-2.webp"
                             alt="nano technology research"
                             width={500}
                             height={500}
                             className="h-32 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
                         />
                         <Image
-                            src="/images/about-2.webp"
+                            src="/images/timeline-1.webp"
                             alt="research process"
                             width={500}
                             height={500}
@@ -50,14 +50,14 @@ export default function Timeline() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/images/about-3.webp"
+                            src="/images/timeline-3.webp"
                             alt="technology development"
                             width={500}
                             height={500}
                             className="h-32 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
                         />
                         <Image
-                            src="/images/about-4.webp"
+                            src="/images/timeline-4.webp"
                             alt="product maturation"
                             width={500}
                             height={500}
@@ -79,14 +79,14 @@ export default function Timeline() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/images/about-1.webp"
+                            src="/images/timeline-6.webp"
                             alt="international certification"
                             width={500}
                             height={500}
                             className="h-32 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
                         />
                         <Image
-                            src="/images/about-2.webp"
+                            src="/images/timeline-5.webp"
                             alt="quality approvals"
                             width={500}
                             height={500}
@@ -108,14 +108,14 @@ export default function Timeline() {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/images/about-3.webp"
+                            src="/images/about-orta.webp"
                             alt="xencoa turkey"
                             width={500}
                             height={500}
                             className="h-32 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
                         />
                         <Image
-                            src="/images/about-4.webp"
+                            src="/images/timeline-7.webp"
                             alt="xencoa launch"
                             width={500}
                             height={500}

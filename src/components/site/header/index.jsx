@@ -23,7 +23,7 @@ export default function Header() {
     })
 
     return (
-        <header className='static lg:sticky top-auto lg:-top-5 z-30 w-full fluid gridContainer pt-0 lg:pt-6'>
+        <header className='static lg:sticky top-auto lg:-top-5 z-50 w-full fluid gridContainer pt-0 lg:pt-6'>
             <main className='lg:hidden w-full py-3 flex items-center gap-4 justify-between'>
                 <Link href='/' className=''>
                     <Image src={"/images/xencoa-logo.webp"} alt='xencoa logo' width={150} height={70} className={`w-fit h-8 scale-110 object-contain object-center`} />
@@ -41,9 +41,15 @@ export default function Header() {
             </main>
             <main className={`hidden lg:grid grid-cols-6 py-4 mx-auto transition-all duration-300 ${isScrolled ? 'w-3xl lg:w-4xl xl:w-5xl bg-gradient-to-bl from-black to-[#161616] px-6 pr-12 py-2 rounded-xl' : 'w-full'}`}>
                 <MotionScrollInViewOpacity>
-                    <Link href='/' className=''>
-                        <Image src={"/images/xencoa-logo.webp"} alt='xencoa logo' width={150} height={70} className={`w-fit ${isScrolled ? 'h-9' : 'h-14'} object-contain object-center`} />
-                    </Link>
+                    {isScrolled ? (
+                        <Link href='/' className=''>
+                            <Image src={"/images/xencoa-logo-white.webp"} alt='xencoa logo' width={150} height={70} className={`w-fit ${isScrolled ? 'h-9' : 'h-14'} object-contain object-center`} />
+                        </Link>
+                    ) : (
+                        <Link href='/' className=''>
+                            <Image src={"/images/xencoa-logo.webp"} alt='xencoa logo' width={150} height={70} className={`w-fit ${isScrolled ? 'h-9' : 'h-14'} object-contain object-center`} />
+                        </Link>
+                    )}
                 </MotionScrollInViewOpacity>
                 <Navbar isScrolled={isScrolled} />
                 <MotionScrollInViewOpacity>

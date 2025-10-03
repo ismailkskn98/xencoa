@@ -19,8 +19,8 @@
         },
         {
           "badge": "Isıtma & Soğutma",
-          "title": "Saniyeler İçinde 600°C'ye Kadar Isınma",
-          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 600 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı.",
+          "title": "Saniyeler İçinde 40°C'ye Kadar Isınma",
+          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 40 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı.",
           "cta": "Detaylı Bilgi",
           "ctaVideo": "Tanıtım Videosu"
         },
@@ -67,7 +67,7 @@
         },
         {
           "title": "Isıtma Sistemi",
-          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 600 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı."
+          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 40 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı."
         },
         {
           "title": "Aydınlatma Çözümleri",
@@ -98,9 +98,9 @@
           "description": "Elektrik üretimi, ısıtma, aydınlatma ve enerji depolama fonksiyonlarının tek üründe birleştirilmesi."
         },
         {
-          "year": "Sertifikasyon",
-          "title": "Uluslararası Onaylar",
-          "description": "Ürünlerimiz uluslararası kalite enstitüleri tarafından sertifikalandırıldı."
+          "year": "Test Aşaması",
+          "title": "Prototip Testleri",
+          "description": "Nano macun teknolojisinin çeşitli ortamlarda performans ve dayanıklılık testlerinin tamamlanması."
         },
         {
           "year": "Türkiye",
@@ -127,7 +127,7 @@
         },
         {
           "question": "Kaç derece ısınabilir?",
-          "answer": "Nano macunla kaplanan yüzeyler saniyeler içinde 600 dereceye kadar ısınabilir ve dijital kontrol ile yönetilebilir."
+          "answer": "Nano macunla kaplanan yüzeyler saniyeler içinde 40 dereceye kadar ısınabilir ve dijital kontrol ile yönetilebilir."
         },
         {
           "question": "Enerji depolama kapasitesi nasıl?",
@@ -154,8 +154,14 @@
       "rights": "© 2025 Xencoa. Tüm hakları saklıdır."
     },
     "meta": {
+      "title": "Geleceğin enerjisi bizimle başlıyor | Xencoa - Nano Akıllı Macun Teknolojisi",
       "description": "Xencoa ile Nano Akıllı Macun Teknolojisi Türkiye'de. Elektrik üretimi, ısıtma, aydınlatma ve enerji depolama tek üründe. Geleceğin enerjisi bizimle başlıyor.",
-      "keywords": "nano teknoloji, akıllı macun, enerji üretimi, güneş enerjisi, enerji depolama, xencoa, türkiye"
+      "keywords": "nano teknoloji, akıllı macun, enerji üretimi, güneş enerjisi, enerji depolama, xencoa, türkiye, yenilenebilir enerji, temiz enerji, enerji teknolojileri, güneş paneli alternatifi, ısıtma sistemi, aydınlatma çözümleri, batarya teknolojisi",
+      "ogTitle": "Xencoa - Nano Akıllı Macun ile Geleceğin Enerjisi Türkiye'de",
+      "ogDescription": "Sadece güneş ışığı ile elektrik üret, ısın, aydınlan ve enerji depola. Devrim niteliğindeki Nano Akıllı Macun teknolojisi artık Türkiye'de.",
+      "ogImageAlt": "Xencoa Nano Akıllı Macun Teknolojisi Logo",
+      "twitterTitle": "Xencoa - Geleceğin Enerji Teknolojisi Türkiye'de",
+      "twitterDescription": "🌟 Nano Akıllı Macun ile 4 fonksiyon tek üründe: Elektrik üretimi, ısıtma, aydınlatma ve enerji depolama. #NanoTeknoloji #YenilenebilirEnerji"
     }
   }
 }

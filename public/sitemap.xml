@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Ana Sayfa -->
+  <url>
+    <loc>https://xencoa.com/</loc>
+    <lastmod>2025-01-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://xencoa.com/tr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://xencoa.com/en" />
+  </url>
+  
+  <!-- Türkçe Ana Sayfa -->
+  <url>
+    <loc>https://xencoa.com/tr</loc>
+    <lastmod>2025-01-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xencoa.com/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xencoa.com/" />
+  </url>
+  
+  <!-- İngilizce Ana Sayfa -->
+  <url>
+    <loc>https://xencoa.com/en</loc>
+    <lastmod>2025-01-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://xencoa.com/tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://xencoa.com/" />
+  </url>
+  
+  <!-- Türkçe Giriş Sayfası -->
+  <url>
+    <loc>https://xencoa.com/tr/auth/login</loc>
+    <lastmod>2025-01-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xencoa.com/en/auth/login" />
+  </url>
+  
+  <!-- İngilizce Giriş Sayfası -->
+  <url>
+    <loc>https://xencoa.com/en/auth/login</loc>
+    <lastmod>2025-01-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://xencoa.com/tr/auth/login" />
+  </url>
+  
+  <!-- Türkçe Kayıt Sayfası -->
+  <url>
+    <loc>https://xencoa.com/tr/auth/register</loc>
+    <lastmod>2025-01-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://xencoa.com/en/auth/register" />
+  </url>
+  
+  <!-- İngilizce Kayıt Sayfası -->
+  <url>
+    <loc>https://xencoa.com/en/auth/register</loc>
+    <lastmod>2025-01-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://xencoa.com/tr/auth/register" />
+  </url>
+</urlset>

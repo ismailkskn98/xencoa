@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Yasaklanan alanlar
+Disallow: /backoffice/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /auth/reset-password/
+
+# Özel bot kuralları
+User-agent: Googlebot
+Allow: /
+Disallow: /backoffice/
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Bingbot  
+Allow: /
+Disallow: /backoffice/
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap konumu
+Sitemap: https://xencoa.com/sitemap.xml
+
+# Host tanımlaması
+Host: https://xencoa.com

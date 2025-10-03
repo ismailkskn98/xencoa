@@ -11,7 +11,7 @@ export default function Features() {
         <section id="features" className="w-full fluid gridContainer pt-20 lg:pt-24 pb-16">
             <main className='w-full mx-auto max-w-full xl:max-w-11/12 2xl:max-w-10/12 flex flex-col items-center gap-12'>
                 <MotionScrollInViewVariant className={"w-fit h-fit flex flex-col items-start lg:items-center gap-3 mb-5 lg:mb-8"}>
-                    <span className='inline-block bg-custom-orange text-white text-sm px-4 py-2 rounded-full font-medium'>
+                    <span className='inline-block bg-custom-orange text-white text-sm px-4 py-2 rounded-full'>
                         {t('title')}
                     </span>
                     <div className='w-fit h-fit relative'>
@@ -29,12 +29,12 @@ export default function Features() {
                                 {t('items.0.description')}
                             </p>
                         </article>
-                        <div className='w-full h-52 md:h-full bg-[url("/images/about-1.webp")] bg-cover bg-bottom md:bg-center bg-no-repeat rounded-lg' />
+                        <div className='w-full h-52 md:h-full bg-[url("/images/hero-carousel/3.webp")] bg-cover bg-bottom md:bg-center bg-no-repeat rounded-lg' />
                     </section>
                 </MotionScrollInView>
                 <MotionScrollInView className={"w-full"}>
                     <section className='w-full grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 2xl:gap-8 min-h-56 place-items-stretch rounded-lg overflow-hidden'>
-                        <div className='w-full h-52 md:h-full bg-[url("/images/about-2.webp")] bg-cover bg-bottom md:bg-center bg-no-repeat rounded-lg' />
+                        <div className='w-full h-52 md:h-full bg-[url("/images/hero-carousel/6.webp")] bg-cover bg-bottom md:bg-center bg-no-repeat rounded-lg' />
                         <article className='col-span-1 md:col-span-2 p-6 bg-custom-dark-blue/5 flex flex-col items-start justify-center gap-3 rounded-lg'>
                             <h3 className='text-2xl font-medium text-gray-900'>{t('items.1.title')}</h3>
                             <p className='text-gray-700 text-sm font-light leading-relaxed max-w-xl'>
@@ -51,12 +51,12 @@ export default function Features() {
                                 {t('items.2.description')}
                             </p>
                         </article>
-                        <div className='w-full h-52 md:h-full bg-[url("/images/about-3.webp")] bg-cover bg-bottom md:bg-center bg-no-repeat rounded-lg' />
+                        <div className='w-full h-52 md:h-full bg-[url("/images/xencoa-2.webp")] bg-cover bg-bottom md:bg-center bg-no-repeat rounded-lg' />
                     </section>
                 </MotionScrollInView>
                 <MotionScrollInView className={"w-full"}>
                     <section className='w-full grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 2xl:gap-8 min-h-56 place-items-stretch rounded-lg overflow-hidden'>
-                        <div className='w-full h-52 md:h-full bg-[url("/images/about-4.webp")] bg-cover bg-bottom md:bg-center bg-no-repeat rounded-lg' />
+                        <div className='w-full h-52 md:h-full bg-[url("/images/xencoa-3.webp")] bg-cover bg-bottom md:bg-center bg-no-repeat rounded-lg' />
                         <article className='col-span-2 p-6 bg-custom-dark-blue/5 flex flex-col items-start justify-center gap-3 rounded-lg'>
                             <h3 className='text-2xl font-medium text-gray-900'>{t('items.3.title')}</h3>
                             <p className='text-gray-700 text-sm font-light leading-relaxed max-w-xl'>

@@ -50,8 +50,8 @@ export default function Footer() {
                     <article className='absolute right-0 bottom-0 h-[30%] lg:h-[55%] w-fit flex items-center gap-4 max-w-6xl overflow-hidden rounded-br-xl'>
                         <div className='absolute inset-0 h-full w-full bg-gradient-to-b from-transparent to-black' />
                         <Image src={"/images/about-1.webp"} alt='nano smart paste technology' width={400} height={400} className="w-fit h-full object-cover object-center" />
-                        <Image src={"/images/about-2.webp"} alt='xencoa energy solutions' width={400} height={400} className="w-fit h-full object-cover object-center" />
-                        <Image src={"/images/about-3.webp"} alt='innovative energy products' width={400} height={400} className="w-fit h-full object-cover object-center" />
+                        <Image src={"/images/xencoa-3.webp"} alt='xencoa energy solutions' width={400} height={400} className="w-fit h-full object-cover object-center" />
+                        <Image src={"/images/hero-carousel/6.webp"} alt='innovative energy products' width={400} height={400} className="w-fit max-w-[159px] h-full object-cover object-center" />
                         <Image src={"/images/about-4.webp"} alt='sustainable energy future' width={400} height={400} className="w-fit h-full object-cover object-center" />
                     </article>
                 </section>
@@ -59,7 +59,7 @@ export default function Footer() {
             <section className='fluid gridContainer w-full pb-4 pt-6'>
                 <main className='border-t border-gray-300 w-full flex items-center justify-between gap-6 pt-3 sm:pt-2'>
                     <Link href='/' className=''>
-                        <Image src={"/images/xencoa-logo.webp"} alt='xencoa logo' width={150} height={70} className="w-fit h-7 sm:h-10 object-contain object-center" />
+                        <Image src={"/images/xencoa-logo-black.webp"} alt='xencoa logo' width={150} height={70} className="w-fit h-7 sm:h-10 object-contain object-center" />
                     </Link>
                     <article className='sm:block hidden py-6 text-black/70 text-xss sm:text-xs text-center'>
                         <p>{t('rights')}</p>
