@@ -113,6 +113,7 @@ export default function Timeline() {
                             width={500}
                             height={500}
                             className="h-32 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
+                            style={{ objectPosition: '25% 40%' }}
                         />
                         <Image
                             src="/images/timeline-7.webp"
@@ -120,6 +121,7 @@ export default function Timeline() {
                             width={500}
                             height={500}
                             className="h-32 w-full rounded-lg object-cover shadow-lg md:h-44 lg:h-60"
+                            style={{ objectPosition: '25% 35%' }}
                         />
                     </div>
                 </>
