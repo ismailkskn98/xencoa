@@ -27,7 +27,7 @@ export default function HeroCarousel() {
             description: t('0.description'),
             cta: t('0.cta'),
             ctaVideo: t('0.ctaVideo'),
-            image: "/images/hero-carousel/1.webp"
+            image: "/images/hero-carousel/1deneme.webp"
         },
         {
             badge: t('1.badge'),
@@ -35,7 +35,7 @@ export default function HeroCarousel() {
             description: t('1.description'),
             cta: t('1.cta'),
             ctaVideo: t('1.ctaVideo'),
-            image: "/images/hero-carousel/2.webp"
+            image: "/images/hero-carousel/3.webp"
         },
         {
             badge: t('2.badge'),
@@ -43,7 +43,7 @@ export default function HeroCarousel() {
             description: t('2.description'),
             cta: t('2.cta'),
             ctaVideo: t('2.ctaVideo'),
-            image: "/images/hero-carousel/3.webp"
+            image: "/images/hero-carousel/2.webp"
         },
         {
             badge: t('3.badge'),
@@ -51,7 +51,7 @@ export default function HeroCarousel() {
             description: t('3.description'),
             cta: t('3.cta'),
             ctaVideo: t('3.ctaVideo'),
-            image: "/images/hero-carousel/4.webp"
+            image: "/images/hero-carousel/3deneme.webp"
         },
 
     ];

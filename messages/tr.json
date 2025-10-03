@@ -19,8 +19,8 @@
         },
         {
           "badge": "Isıtma & Soğutma",
-          "title": "Saniyeler İçinde 40°C'ye Kadar Isınma",
-          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 40 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı.",
+          "title": "Saniyeler İçinde 600°C'ye Kadar Isınma",
+          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 600 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı.",
           "cta": "Detaylı Bilgi",
           "ctaVideo": "Tanıtım Videosu"
         },
@@ -63,11 +63,11 @@
       "items": [
         {
           "title": "Elektrik Üretimi",
-          "description": "Nano macun, yalnızca gün ışığından dahi elektrik üretebilir. Üstelik her yüzeye uygulanabilir, esnek ve dalgalı yüzeylerde bile yüksek verimlilik ve düşük maliyet sağlar. Klasik paneller sadece güneşe ihtiyaç duyarken, nano macun için gün ışığı yeterlidir."
+          "description": "Nano macun, yalnızca gün ışığında dahi elektrik üretebilir. Üstelik her yüzeye uygulanabilir, esnek ve dalgalı yüzeylerde bile yüksek verimlilik ve düşük maliyet sağlar. Klasik paneller sadece güneşe ihtiyaç duyarken, nano macun için gün ışığı yeterlidir."
         },
         {
           "title": "Isıtma Sistemi",
-          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 40 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı."
+          "description": "Nano macunla kaplanan yüzeyler saniyeler içinde 600 dereceye kadar ısınabilir. Cam panellerden dekoratif duvar ısıtıcıları, dijital kontrollü radyatörler ve akıllı ev sistemleriyle entegre çözümler mümkün. Ne kombi, ne petek… sadece yenilikçi, temiz ısı."
         },
         {
           "title": "Aydınlatma Çözümleri",
@@ -127,7 +127,7 @@
         },
         {
           "question": "Kaç derece ısınabilir?",
-          "answer": "Nano macunla kaplanan yüzeyler saniyeler içinde 40 dereceye kadar ısınabilir ve dijital kontrol ile yönetilebilir."
+          "answer": "Nano macunla kaplanan yüzeyler saniyeler içinde 600 dereceye kadar ısınabilir ve dijital kontrol ile yönetilebilir."
         },
         {
           "question": "Enerji depolama kapasitesi nasıl?",
